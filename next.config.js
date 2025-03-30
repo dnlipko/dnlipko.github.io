@@ -4,8 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/dnlipko.github.io',
-  assetPrefix: '/dnlipko.github.io',
+  basePath: '',
+  assetPrefix: '',
 }
 
 module.exports = nextConfig 

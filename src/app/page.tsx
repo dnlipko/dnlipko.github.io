@@ -1,6 +1,5 @@
 import Hero from './(sections)/hero/page';
 import About from './(sections)/about/page';
-import Projects from './(sections)/projects/page';
 import Contact from './(sections)/contact/page';
 
 export default function Home() {
@@ -8,7 +7,6 @@ export default function Home() {
     <>
       <Hero />
       <About />
-      <Projects />
       <Contact />
     </>
   );

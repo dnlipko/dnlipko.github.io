@@ -27,26 +27,6 @@ export default function Hero() {
               <p className="text-xl text-secondary font-light leading-relaxed">
                 Software Engineer based in Amsterdam, specializing in frontend development with React and TypeScript. Currently building tech-driven solutions at Tiqets.
               </p>
-              <div className="flex gap-6 text-secondary">
-                <a
-                  href="#experience"
-                  className="text-sm uppercase tracking-wider hover:text-primary transition-colors duration-200"
-                >
-                  Experience
-                </a>
-                <a
-                  href="#projects"
-                  className="text-sm uppercase tracking-wider hover:text-primary transition-colors duration-200"
-                >
-                  Projects
-                </a>
-                <a
-                  href="#contact"
-                  className="text-sm uppercase tracking-wider hover:text-primary transition-colors duration-200"
-                >
-                  Contact
-                </a>
-              </div>
             </motion.div>
           ) : (
             <div className="space-y-6 opacity-0">
@@ -56,26 +36,6 @@ export default function Hero() {
               <p className="text-xl text-secondary font-light leading-relaxed">
                 Software Engineer based in Amsterdam, specializing in frontend development with React and TypeScript. Currently building tech-driven solutions at Tiqets.
               </p>
-              <div className="flex gap-6 text-secondary">
-                <a
-                  href="#experience"
-                  className="text-sm uppercase tracking-wider hover:text-primary transition-colors duration-200"
-                >
-                  Experience
-                </a>
-                <a
-                  href="#projects"
-                  className="text-sm uppercase tracking-wider hover:text-primary transition-colors duration-200"
-                >
-                  Projects
-                </a>
-                <a
-                  href="#contact"
-                  className="text-sm uppercase tracking-wider hover:text-primary transition-colors duration-200"
-                >
-                  Contact
-                </a>
-              </div>
             </div>
           )}
         </div>

@@ -9,6 +9,11 @@ const socialLinks = [
     url: 'https://www.linkedin.com/in/dmitrii-lipko/',
     platform: 'Connect',
   },
+  {
+    name: 'GitHub',
+    url: 'https://github.com/dnlipko',
+    platform: 'View',
+  },
 ];
 
 export default function Contact() {

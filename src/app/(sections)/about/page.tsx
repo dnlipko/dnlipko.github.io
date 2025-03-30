@@ -22,6 +22,7 @@ const experiences = [
   {
     title: 'Software Engineer',
     company: 'Tiqets',
+    companyUrl: 'https://tiqets.com',
     period: '2022 - Present',
     location: 'Amsterdam, Netherlands',
     description: [
@@ -34,6 +35,7 @@ const experiences = [
   {
     title: 'Software Engineer',
     company: 'Yandex',
+    companyUrl: 'https://yandex.ru',
     period: '2021 - 2022',
     location: 'Moscow, Russia',
     description: [
@@ -45,6 +47,7 @@ const experiences = [
   {
     title: 'Senior Front End Engineer',
     company: 'Domclick',
+    companyUrl: 'https://domclick.ru',
     period: '2020 - 2021',
     location: 'Moscow, Russia',
     description: [
@@ -80,7 +83,15 @@ export default function About() {
                   <div key={`${experience.company}-${experience.period}`} className="space-y-4">
                     <div className="space-y-1">
                       <h3 className="text-lg text-primary">
-                        {experience.title} · {experience.company}
+                        {experience.title} ·{' '}
+                        <a
+                          href={experience.companyUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-500 hover:text-blue-700 dark:text-gray-400 hover:dark:text-gray-300 dark:underline dark:underline-offset-2 dark:decoration-gray-800"
+                        >
+                          {experience.company}
+                        </a>
                       </h3>
                       <p className="text-sm text-secondary">
                         {experience.period} · {experience.location}
@@ -121,7 +132,15 @@ export default function About() {
                   <div key={`${experience.company}-${experience.period}`} className="space-y-4">
                     <div className="space-y-1">
                       <h3 className="text-lg text-primary">
-                        {experience.title} · {experience.company}
+                        {experience.title} ·{' '}
+                        <a
+                          href={experience.companyUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-500 hover:text-blue-700 dark:text-gray-400 hover:dark:text-gray-300 dark:underline dark:underline-offset-2 dark:decoration-gray-800"
+                        >
+                          {experience.company}
+                        </a>
                       </h3>
                       <p className="text-sm text-secondary">
                         {experience.period} · {experience.location}
