@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
+import { ExternalLink } from '@/components/ui/external-link';
 
 const skills = [
   'JavaScript',
@@ -84,14 +85,9 @@ export default function About() {
                     <div className="space-y-1">
                       <h3 className="text-lg text-primary">
                         {experience.title} ·{' '}
-                        <a
-                          href={experience.companyUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-blue-500 hover:text-blue-700 dark:text-gray-400 hover:dark:text-gray-300 dark:underline dark:underline-offset-2 dark:decoration-gray-800"
-                        >
+                        <ExternalLink href={experience.companyUrl}>
                           {experience.company}
-                        </a>
+                        </ExternalLink>
                       </h3>
                       <p className="text-sm text-secondary">
                         {experience.period} · {experience.location}
@@ -133,14 +129,9 @@ export default function About() {
                     <div className="space-y-1">
                       <h3 className="text-lg text-primary">
                         {experience.title} ·{' '}
-                        <a
-                          href={experience.companyUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-blue-500 hover:text-blue-700 dark:text-gray-400 hover:dark:text-gray-300 dark:underline dark:underline-offset-2 dark:decoration-gray-800"
-                        >
+                        <ExternalLink href={experience.companyUrl}>
                           {experience.company}
-                        </a>
+                        </ExternalLink>
                       </h3>
                       <p className="text-sm text-secondary">
                         {experience.period} · {experience.location}

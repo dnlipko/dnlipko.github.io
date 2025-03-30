@@ -24,12 +24,12 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
       root.style.setProperty('--accent', '#e5e7eb');
       root.style.setProperty('--nav-bg', 'rgba(255, 255, 255, 0.8)');
     } else {
-      root.style.setProperty('--background', '#0f172a');
+      root.style.setProperty('--background', '#000000');
       root.style.setProperty('--foreground', '#f1f5f9');
       root.style.setProperty('--primary', '#f1f5f9');
       root.style.setProperty('--secondary', '#cbd5e1');
       root.style.setProperty('--accent', '#1e293b');
-      root.style.setProperty('--nav-bg', 'rgba(15, 23, 42, 0.8)');
+      root.style.setProperty('--nav-bg', '#000000');
     }
   }, [theme]);
 

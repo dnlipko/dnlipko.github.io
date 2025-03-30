@@ -15,15 +15,6 @@ const config: Config = {
         secondary: 'var(--secondary)',
         accent: 'var(--accent)',
       },
-      textColor: {
-        foreground: 'var(--foreground)',
-        primary: 'var(--primary)',
-        secondary: 'var(--secondary)',
-      },
-      backgroundColor: {
-        background: 'var(--background)',
-        accent: 'var(--accent)',
-      },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
         mono: ['JetBrains Mono', 'monospace'],
