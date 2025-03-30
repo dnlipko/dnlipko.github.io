@@ -9,11 +9,20 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: '#111111',
-        secondary: '#666666',
-        accent: '#333333',
-        background: '#ffffff',
-        surface: '#f5f5f5',
+        background: 'var(--background)',
+        foreground: 'var(--foreground)',
+        primary: 'var(--primary)',
+        secondary: 'var(--secondary)',
+        accent: 'var(--accent)',
+      },
+      textColor: {
+        foreground: 'var(--foreground)',
+        primary: 'var(--primary)',
+        secondary: 'var(--secondary)',
+      },
+      backgroundColor: {
+        background: 'var(--background)',
+        accent: 'var(--accent)',
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
