@@ -28,9 +28,9 @@ const experiences = [
     location: 'Amsterdam, Netherlands',
     description: [
       'Led the architecture and development of a standalone frontend application, splitting it from the monolithic backend.',
-      'Migrated the application to React and TypeScript, leading to 25% faster feature delivery.',
-      'Initiated screenshot testing with BackstopJS, reducing UI regressions by 35%.',
-      'Spearheaded the migration to React-Query, optimizing API data fetching and improving performance by 20%.',
+      'Migrated the application to React and TypeScript.',
+      'Initiated screenshot testing.',
+      'Spearheaded the migration to React-Query, optimizing API data fetching.',
     ],
   },
   {
@@ -40,8 +40,8 @@ const experiences = [
     period: '2021 - 2022',
     location: 'Moscow, Russia',
     description: [
-      'Conducted A/B testing on news card layouts, increasing user engagement by 18%.',
-      'Reduced deployment time by 30% through CI/CD pipeline optimization.',
+      'Conducted A/B testing on news card layouts, increasing user engagement.',
+      'Reduced deployment time through CI/CD pipeline optimization.',
       'Improved application accessibility following ARIA best practices.',
     ],
   },
@@ -53,7 +53,7 @@ const experiences = [
     location: 'Moscow, Russia',
     description: [
       'Launched a feedback-driven discussion forum with TypeScript, React, and Redux.',
-      'Developed animated 3D property widgets, increasing user interaction by 22%.',
+      'Developed animated 3D property widgets, increasing user interaction.',
       'Led a team of developers to meet challenging deadlines.',
     ],
   },

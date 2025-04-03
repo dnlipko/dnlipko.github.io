@@ -90,7 +90,7 @@ export default function Contact() {
                   </div>
                   <div className="flex items-center space-x-4">
                     <span className="text-sm text-secondary font-mono">Phone</span>
-                    <span className="text-sm text-secondary">+31 6 27 09 5 121</span>
+                    <span className="text-sm text-secondary">+31 6 2709 5121</span>
                   </div>
                   <div className="flex items-center space-x-4">
                     <span className="text-sm text-secondary font-mono">Email</span>

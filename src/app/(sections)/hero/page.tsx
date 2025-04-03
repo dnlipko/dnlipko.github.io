@@ -25,7 +25,7 @@ export default function Hero() {
                 Dmitrii Lipko
               </h1>
               <p className="text-xl text-secondary font-light leading-relaxed">
-                Software Engineer based in Amsterdam, specializing in frontend development with React and TypeScript. Currently building tech-driven solutions at Tiqets.
+                Software Engineer based in Amsterdam, specialising in frontend development with React and TypeScript. Currently building tech-driven solutions at Tiqets.
               </p>
             </motion.div>
           ) : (
@@ -34,7 +34,7 @@ export default function Hero() {
                 Dmitrii Lipko
               </h1>
               <p className="text-xl text-secondary font-light leading-relaxed">
-                Software Engineer based in Amsterdam, specializing in frontend development with React and TypeScript. Currently building tech-driven solutions at Tiqets.
+                Software Engineer based in Amsterdam, specialising in frontend development with React and TypeScript. Currently building tech-driven solutions at Tiqets.
               </p>
             </div>
           )}
