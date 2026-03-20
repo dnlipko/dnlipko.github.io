@@ -21,10 +21,23 @@ const skills = [
 
 const experiences = [
   {
+    title: "Software Engineer",
+    company: "eBay",
+    companyUrl: "https://ebay.com",
+    period: "2025 - Present",
+    location: "Amsterdam, Netherlands",
+    description: [
+      "Built and evolved core frontend foundations used across multiple applications, improving scalability, performance, and reliability",
+      "Delivered high-impact product features, including AI-powered tools and seller guidance, improving user experience and efficiency",
+      "Modernized the codebase (ES6 migration), increased test coverage, and strengthened CI with smoke tests",
+      "Mentored engineers, conducted frontend interviews, and contributed to cross-team technical decisions"
+    ]
+  },
+  {
     title: 'Software Engineer',
     company: 'Tiqets',
     companyUrl: 'https://tiqets.com',
-    period: '2022 - Present',
+    period: '2022 - 2025',
     location: 'Amsterdam, Netherlands',
     description: [
       'Led the architecture and development of a standalone frontend application, splitting it from the monolithic backend.',
@@ -45,18 +58,18 @@ const experiences = [
       'Improved application accessibility following ARIA best practices.',
     ],
   },
-  {
-    title: 'Senior Front End Engineer',
-    company: 'Domclick',
-    companyUrl: 'https://domclick.ru',
-    period: '2020 - 2021',
-    location: 'Moscow, Russia',
-    description: [
-      'Launched a feedback-driven discussion forum with TypeScript, React, and Redux.',
-      'Developed animated 3D property widgets, increasing user interaction.',
-      'Led a team of developers to meet challenging deadlines.',
-    ],
-  },
+  // {
+  //   title: 'Senior Front End Engineer',
+  //   company: 'Domclick',
+  //   companyUrl: 'https://domclick.ru',
+  //   period: '2020 - 2021',
+  //   location: 'Moscow, Russia',
+  //   description: [
+  //     'Launched a feedback-driven discussion forum with TypeScript, React, and Redux.',
+  //     'Developed animated 3D property widgets, increasing user interaction.',
+  //     'Led a team of developers to meet challenging deadlines.',
+  //   ],
+  // },
 ];
 
 export default function About() {
