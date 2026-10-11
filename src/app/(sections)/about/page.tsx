@@ -21,7 +21,7 @@ const skills = [
 
 const experiences = [
   {
-    title: "Software Engineer",
+    title: "Senior Software Engineer",
     company: "eBay",
     companyUrl: "https://ebay.com",
     period: "2025 - Present",
