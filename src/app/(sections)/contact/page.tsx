@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 const socialLinks = [
   {
     name: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/dmitrii-lipko/',
+    url: 'https://www.linkedin.com/in/dlipko/',
     platform: 'Connect',
   },
   {
